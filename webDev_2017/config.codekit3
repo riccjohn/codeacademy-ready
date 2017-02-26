@@ -9,6 +9,58 @@
 	],
 "creatorBuild": "25568",
 "files": {
+	"\/artsCrafts\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/artsCrafts\/index.html",
+		"oF": 0
+		},
+	"\/artsCrafts\/styles\/style-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/artsCrafts\/styles\/style-min-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/artsCrafts\/styles\/style.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/artsCrafts\/styles\/style-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/BeachParadise\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/BeachParadise\/index.html",
+		"oF": 0
+		},
+	"\/BeachParadise\/resources\/css\/style-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/BeachParadise\/resources\/css\/style-min-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/BeachParadise\/resources\/css\/style.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/BeachParadise\/resources\/css\/style-min.css",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/DevProject\/index.html": {
 		"ft": 8192,
 		"oA": 0,
