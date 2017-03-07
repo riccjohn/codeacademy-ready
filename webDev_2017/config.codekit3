@@ -61,6 +61,22 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"\/broadway\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/broadway\/index.html",
+		"oF": 0
+		},
+	"\/broadway\/styles\/style.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/broadway\/styles\/style-min.css",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/DevProject\/index.html": {
 		"ft": 8192,
 		"oA": 0,
@@ -86,6 +102,60 @@
 		"oAP": "\/DevProject\/resources\/css\/index-min.css",
 		"oF": 0,
 		"oS": 0
+		},
+	"\/excursion\/img\/camp.jpg": {
+		"ft": 16384,
+		"iS": 101647,
+		"oA": 0,
+		"oAP": "\/excursion\/img\/camp.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/excursion\/img\/phone.png": {
+		"ft": 32768,
+		"iS": 1662,
+		"oA": 0,
+		"oAP": "\/excursion\/img\/phone.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/excursion\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/excursion\/index.html",
+		"oF": 0
+		},
+	"\/excursion\/ref\/excursion.png": {
+		"ft": 32768,
+		"iS": 1120719,
+		"oA": 0,
+		"oAP": "\/excursion\/ref\/excursion.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/excursion\/ref\/excursion_redline.png": {
+		"ft": 32768,
+		"iS": 1101174,
+		"oA": 0,
+		"oAP": "\/excursion\/ref\/excursion_redline.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/excursion\/style\/style.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/excursion\/style\/style-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/excursion\/video\/excursion.mp4": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/excursion\/video\/excursion.mp4",
+		"oF": 0
 		},
 	"\/Paris\/index.html": {
 		"ft": 8192,
