@@ -4,240 +4,90 @@
 	{
 		"name": "Process All Remaining Files and Folders",
 		"stepType": 1,
-		"uuidString": "9D08E9DE-0BA8-4FD3-B33C-41FEF626CD5C"
+		"uuidString": "5F2A47B9-522D-445A-8454-C20362108C17"
 		}
 	],
 "creatorBuild": "25568",
 "files": {
-	"\/artsCrafts\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/artsCrafts\/index.html",
-		"oF": 0
-		},
-	"\/artsCrafts\/styles\/style-min.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/artsCrafts\/styles\/style-min-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/artsCrafts\/styles\/style.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/artsCrafts\/styles\/style-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/BeachParadise\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/BeachParadise\/index.html",
-		"oF": 0
-		},
-	"\/BeachParadise\/resources\/css\/style-min.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/BeachParadise\/resources\/css\/style-min-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/BeachParadise\/resources\/css\/style.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/BeachParadise\/resources\/css\/style-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/broadway\/img\/icons\/execute.svg": {
+	"\/img\/icons\/execute.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/broadway\/img\/icons\/execute.svg",
+		"oAP": "\/img\/icons\/execute.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/broadway\/img\/icons\/identify.svg": {
+	"\/img\/icons\/identify.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/broadway\/img\/icons\/identify.svg",
+		"oAP": "\/img\/icons\/identify.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/broadway\/img\/icons\/understand.svg": {
+	"\/img\/icons\/understand.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/broadway\/img\/icons\/understand.svg",
+		"oAP": "\/img\/icons\/understand.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/broadway\/img\/photos\/the-flatiron-building.png": {
+	"\/img\/photos\/the-flatiron-building.png": {
 		"ft": 32768,
 		"iS": 699601,
 		"oA": 0,
-		"oAP": "\/broadway\/img\/photos\/the-flatiron-building.png",
+		"oAP": "\/img\/photos\/the-flatiron-building.png",
 		"oF": 0,
 		"opt": 0
 		},
-	"\/broadway\/index.html": {
+	"\/index.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/broadway\/index.html",
+		"oAP": "\/index.html",
 		"oF": 0
 		},
-	"\/broadway\/reference\/broadway.png": {
+	"\/reference\/broadway.png": {
 		"ft": 32768,
 		"iS": 655219,
 		"oA": 0,
-		"oAP": "\/broadway\/reference\/broadway.png",
+		"oAP": "\/reference\/broadway.png",
 		"oF": 0,
 		"opt": 0
 		},
-	"\/broadway\/reference\/broadway_redline.jpg": {
+	"\/reference\/broadway_redline.jpg": {
 		"ft": 16384,
 		"iS": 574587,
 		"oA": 0,
-		"oAP": "\/broadway\/reference\/broadway_redline.jpg",
+		"oAP": "\/reference\/broadway_redline.jpg",
 		"oF": 0,
 		"opt": 0
 		},
-	"\/broadway\/styles\/style-min.css": {
+	"\/styles\/style-min.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/broadway\/styles\/style-min-min.css",
+		"oAP": "\/styles\/style-min-min.css",
 		"oF": 0,
 		"oS": 0
 		},
-	"\/broadway\/styles\/style.css": {
+	"\/styles\/style.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/broadway\/styles\/style-min.css",
+		"oAP": "\/styles\/style-min.css",
 		"oF": 0,
 		"oS": 0
-		},
-	"\/DevProject\/index.html": {
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/DevProject\/index.html",
-		"oF": 1
-		},
-	"\/DevProject\/resources\/css\/index-min.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/DevProject\/resources\/css\/index-min-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/DevProject\/resources\/css\/index.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/DevProject\/resources\/css\/index-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/excursion\/img\/camp.jpg": {
-		"ft": 16384,
-		"iS": 101647,
-		"oA": 0,
-		"oAP": "\/excursion\/img\/camp.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/excursion\/img\/phone.png": {
-		"ft": 32768,
-		"iS": 1662,
-		"oA": 0,
-		"oAP": "\/excursion\/img\/phone.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/excursion\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/excursion\/index.html",
-		"oF": 0
-		},
-	"\/excursion\/ref\/excursion.png": {
-		"ft": 32768,
-		"iS": 1120719,
-		"oA": 0,
-		"oAP": "\/excursion\/ref\/excursion.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/excursion\/ref\/excursion_redline.png": {
-		"ft": 32768,
-		"iS": 1101174,
-		"oA": 0,
-		"oAP": "\/excursion\/ref\/excursion_redline.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/excursion\/style\/style.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/excursion\/style\/style-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/excursion\/video\/excursion.mp4": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/excursion\/video\/excursion.mp4",
-		"oF": 0
-		},
-	"\/Paris\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/Paris\/index.html",
-		"oF": 0
-		},
-	"\/Two_Sandals\/home.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/Two_Sandals\/home.html",
-		"oF": 0
-		},
-	"\/Two_Sandals\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/Two_Sandals\/index.html",
-		"oF": 0
 		}
 	},
 "hooks": [
@@ -245,10 +95,10 @@
 "manualImportLinks": {
 	},
 "projectAttributes": {
-	"creationDate": 509511517,
-	"displayValue": "webDev_2017",
+	"creationDate": 510549360,
+	"displayValue": "broadway",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-soon"
+	"iconImageName": "meme-cocaine"
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
