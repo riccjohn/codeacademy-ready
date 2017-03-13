@@ -9,11 +9,80 @@
 	],
 "creatorBuild": "25704",
 "files": {
+	"\/img\/img-myt-logo.jpg": {
+		"ft": 16384,
+		"iS": 5365,
+		"oA": 0,
+		"oAP": "\/img\/img-myt-logo.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/img-news-bite.png": {
+		"ft": 32768,
+		"iS": 35968,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/img\/img-news-bite.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/img-story-1.png": {
+		"ft": 32768,
+		"iS": 155390,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/img\/img-story-1.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/img-story-2.png": {
+		"ft": 32768,
+		"iS": 201670,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/img\/img-story-2.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/img-story-3.png": {
+		"ft": 32768,
+		"iS": 179792,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/img\/img-story-3.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/img-story-main.png": {
+		"ft": 32768,
+		"iS": 341024,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/img\/img-story-main.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/index.html": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/index.html",
 		"oF": 0
+		},
+	"\/styles\/style-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/styles\/style-min-min.css",
+		"oF": 0,
+		"oS": 0
 		},
 	"\/styles\/style.css": {
 		"aP": 1,
