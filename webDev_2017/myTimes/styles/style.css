@@ -53,6 +53,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   width: 75%;
+  min-width: 670px;
 }
 
 #main {
@@ -78,7 +79,7 @@ body {
 
 #main .image {
   background-image: url("../img/img-story-main.png");
-  width: 629px;
+  width: 630px;
   height: 300px;
 }
 
