@@ -2,6 +2,8 @@ body {
   background-color: black;
   font-family: "Helvetica", sans-serif;
   font-size: 22px;
+  color: seashell;
+  margin-top: 0px;
 }
 
 .container {
@@ -18,6 +20,7 @@ body {
   border-bottom: 1px solid seashell;
   padding: 10px;
   align-items: center;
+  background-color: black;
 }
 
 #header img {
@@ -37,4 +40,72 @@ nav span {
 
 #header a {
   color: seashell;
+}
+
+#main {
+  padding-top: 92px;
+  margin: 0 auto;
+  width: 1200px;
+}
+
+#mission {
+  background-image: url("../img/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  align-items: center;
+}
+
+.text {
+  text-align: center;
+  background-color: black;
+  width: 100%;
+}
+
+#featured {
+  padding-top: 92px;
+}
+
+.tea {
+  text-align: center;
+  margin: 10px;
+}
+
+.tea img{
+  width: 300px;
+  height: 200px;
+}
+
+#locations {
+  background-image: url("../img/img-locations-background.jpg");
+  height: 500px;
+  width: 100%;
+  margin-top: 92px;
+}
+
+.locations {
+  /*background-color: blue;*/
+  margin: 0px;
+}
+
+.location {
+  flex-direction: column;
+  justify-content: space-around;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  background-color: black;
+  margin: 0px 40px;
+}
+
+#contact {
+  height: 200px;
+  margin: 70px 0px;
+  text-align: center;
+  display: block;
+  width: 100%;
+}
+
+#footer {
+  margin: 0px 20px;
+  width: 100%;
 }
