@@ -4,116 +4,102 @@
 	{
 		"name": "Process All Remaining Files and Folders",
 		"stepType": 1,
-		"uuidString": "DF7D3418-A9DE-4EC0-B793-7C6EDCB001A2"
+		"uuidString": "33B10353-28CC-4D98-B22F-3D6DE23790EE"
 		}
 	],
 "creatorBuild": "25704",
 "files": {
-	"\/img\/img-bedford-bizarre.jpg": {
-		"ft": 16384,
-		"iS": 10069594,
-		"oA": 0,
-		"oAP": "\/img\/img-bedford-bizarre.jpg",
-		"oF": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/img-berryblitz.jpg": {
-		"ft": 16384,
-		"iS": 155346,
-		"oA": 0,
-		"oAP": "\/img\/img-berryblitz.jpg",
-		"oF": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/img-donut.jpg": {
-		"ft": 16384,
-		"iS": 305036,
-		"oA": 0,
-		"oAP": "\/img\/img-donut.jpg",
-		"oF": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/img-locations-background.jpg": {
-		"ft": 16384,
-		"iS": 157276,
-		"oA": 0,
-		"oAP": "\/img\/img-locations-background.jpg",
-		"oF": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/img-mission-background.jpg": {
-		"ft": 16384,
-		"iS": 789755,
-		"oA": 0,
-		"oAP": "\/img\/img-mission-background.jpg",
-		"oF": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/img-myrtle-ave.jpg": {
-		"ft": 16384,
-		"iS": 367912,
-		"oA": 0,
-		"oAP": "\/img\/img-myrtle-ave.jpg",
-		"oF": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/img-spiced-rum.jpg": {
-		"ft": 16384,
-		"iS": 428752,
-		"oA": 0,
-		"oAP": "\/img\/img-spiced-rum.jpg",
-		"oF": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/img-tea-cozy-logo.png": {
-		"ft": 32768,
-		"iS": 10195,
-		"l": 1,
-		"oA": 0,
-		"oAP": "\/img\/img-tea-cozy-logo.png",
-		"oF": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/img-tea-cozy-redline.jpg": {
-		"ft": 16384,
-		"iS": 1769774,
-		"oA": 0,
-		"oAP": "\/img\/img-tea-cozy-redline.jpg",
-		"oF": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"\/index.html": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/index.html",
 		"oF": 0
 		},
-	"\/styles\/style-min.css": {
+	"\/resources\/img\/glasses.png": {
+		"ft": 32768,
+		"iS": 54639,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/resources\/img\/glasses.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/img\/logo.png": {
+		"ft": 32768,
+		"iS": 2225,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/resources\/img\/logo.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/img\/moto.jpeg": {
+		"ft": 16384,
+		"iS": 156619,
+		"oA": 0,
+		"oAP": "\/resources\/img\/moto.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/img\/pen.png": {
+		"ft": 32768,
+		"iS": 38793,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/resources\/img\/pen.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/img\/watch.png": {
+		"ft": 32768,
+		"iS": 113128,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/resources\/img\/watch.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/ref\/redline.jpg": {
+		"ft": 16384,
+		"iS": 1369049,
+		"oA": 0,
+		"oAP": "\/resources\/ref\/redline.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/styles\/reset.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/styles\/style-min-min.css",
+		"oAP": "\/resources\/styles\/reset-min.css",
 		"oF": 0,
 		"oS": 0
 		},
-	"\/styles\/style.css": {
+	"\/resources\/styles\/style-min.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/styles\/style-min.css",
+		"oAP": "\/resources\/styles\/style-min-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/resources\/styles\/style.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/resources\/styles\/style-min.css",
 		"oF": 0,
 		"oS": 0
 		}
@@ -123,10 +109,10 @@
 "manualImportLinks": {
 	},
 "projectAttributes": {
-	"creationDate": 511141353,
-	"displayValue": "teaCozy",
+	"creationDate": 511398126,
+	"displayValue": "SecretAgentSupply",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-soon"
+	"iconImageName": "meme-leo"
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
