@@ -66,6 +66,12 @@ nav {
   justify-content: space-between;
 }
 
+.mobile-nav-container {
+  padding: .75rem;
+  color: white;
+  text-align: center;
+}
+
 nav a {
   text-decoration: none;
   color: white;
@@ -82,7 +88,8 @@ nav a:hover {
 
 .product {
   width: 30%;
-  padding: 3rem 0;
+  max-width: 15rem;
+  margin: 3rem 0;
 }
 
 .product-image {
@@ -135,13 +142,59 @@ nav a:hover {
   padding: 5rem 0;
 }
 
+@media only screen and (min-width: 1025px) {
+  .mobile-nav-container {
+    display: none;
+  }
+}
+
 @media only screen and (max-width: 1024px) {
-  .container {
-    width: 100%;
+  #banner {
+    display: flex;
+    justify-content: center;
   }
 
   .product {
     width: 47%;
+  }
+
+  .desktop {
+    display: none;
+  }
+
+  .mobile-nav-container {
+    display: block;
+    font-size: 1.5rem;
+  }
+
+  #products, .info {
+    justify-content: space-around;
+  }
+
+  #products .glasses {
+    display: none;
+  }
+
+  #footer span {
+    text-align: center;
+  }
+
+}
+
+
+@media only screen and (max-width: 470px) {
+  #banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+
+  #headline {
+    width: 100%;
+  }
+
+  .product {
+    width: 90%;
   }
 
 }
