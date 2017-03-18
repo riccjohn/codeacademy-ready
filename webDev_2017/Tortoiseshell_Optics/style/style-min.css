@@ -2,6 +2,9 @@ html {
   font-size: 18px;
   font-family: Helvetica, sans-serif; }
 
+body {
+  line-height: 1.25rem; }
+
 .container {
   width: 960px; }
 
@@ -102,7 +105,8 @@ nav a {
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
-          justify-content: space-between; }
+          justify-content: space-between;
+  margin-bottom: 4rem; }
 
 #philosophy, #appointments {
   width: 35%;
@@ -118,3 +122,17 @@ nav a {
   padding: .5rem 1.25rem;
   max-width: 10rem;
   margin-bottom: 1.25rem; }
+
+#footer .container {
+  background-color: azure;
+  padding: 4rem 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+#footer img {
+  height: 1.5rem;
+  padding-right: 1rem; }
