@@ -5,15 +5,17 @@ html {
 
 .container {
   width: 960px;
-  /*border: 2px dashed red;*/
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
 }
 
 #header {
   background-image: url("../img/glasses-bg.png");
   background-size: cover;
   height: 30rem;
-  display: flex;
-  justify-content: center;
   text-align: right;
 }
 
@@ -56,40 +58,49 @@ nav a {
   right: -2rem;
 }
 
-#features {
-  height: 8rem;
-  display: flex;
-  justify-content: center;
-  margin: 3rem;
-  background-color: blue;
-}
-
-
 #features .container {
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
+  justify-content: space-around;
+  padding: 3rem 0rem;
+  height: 8rem;
 }
 
-.icon {
-  margin: 3rem;
+#features .icon {
+  margin: 0 3rem;
   text-align: center;
-  /*background-color: tomato;*/
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: space-between;
-  height: 12rem;
-  line-height: 1.25rem;
+  align-items: center;
 }
 
-.icon img {
-  margin-bottom: 2rem;
+#features img {
+  width: 6rem;
+  margin-bottom: 1.25rem;
 }
 
-#info {
+#features .exams img{
+  width: 4rem;
+}
+
+#info .container {
   display: flex;
-  justify-content: center;
-  margin: 0 3rem;
-  background-color: yellow;
+  justify-content: space-between;
+}
+
+#philosophy, #appointments {
+  width: 35%;
+  margin: 2.5%;
+}
+
+.title {
+  background-color: cadetblue;
+  display: inline-block;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: .5rem 1.25rem;
+  max-width: 10rem;
+  margin-bottom: 1.25rem;
 }
