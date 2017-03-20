@@ -5,6 +5,7 @@ html {
 
 body {
   line-height: 1.25rem;
+  overflow-x: hidden;
 }
 
 .container {
@@ -161,6 +162,8 @@ nav a {
     background-position: 20%;
   }
 
+  .container
+
   .left img {
     height: 1rem;
     margin-right: .5rem;
@@ -174,8 +177,11 @@ nav a {
     top: 9rem;
     font-size: 1rem;
     right: 0;
-    width: 100%;
-    text-align: center;
+    /*width: 100%;*/
+    display: flex;
+    /*align-items: center;*/
+    flex-grow: 1;
+    /*text-align: center;*/
     opacity: .75;
   }
 

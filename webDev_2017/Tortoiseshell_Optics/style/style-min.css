@@ -3,7 +3,8 @@ html {
   font-family: Helvetica, sans-serif; }
 
 body {
-  line-height: 1.25rem; }
+  line-height: 1.25rem;
+  overflow-x: hidden; }
 
 .container {
   max-width: 960px; }
@@ -163,7 +164,8 @@ nav a {
   #header {
     height: 17rem;
     background-position: 20%; }
-  .left img {
+  .container
+.left img {
     height: 1rem;
     margin-right: .5rem; }
   #navbar {
@@ -172,8 +174,15 @@ nav a {
     top: 9rem;
     font-size: 1rem;
     right: 0;
-    width: 100%;
-    text-align: center;
+    /*width: 100%;*/
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    /*align-items: center;*/
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+    /*text-align: center;*/
     opacity: .75; }
   #features {
     height: 25rem;
