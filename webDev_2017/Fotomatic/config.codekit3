@@ -35,6 +35,16 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"\/resources\/css\/style-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/resources\/css\/style-min-min.css",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/resources\/css\/style.css": {
 		"aP": 1,
 		"bl": 0,
