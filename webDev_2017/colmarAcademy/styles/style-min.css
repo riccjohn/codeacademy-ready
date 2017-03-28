@@ -29,7 +29,7 @@ h3 {
 
 #header {
   height: 64px;
-  /*padding: 0 24px;*/
+  padding: 0 3rem;
   max-width: 1200px;
   width: 100%;
   -webkit-box-pack: justify;
@@ -40,8 +40,7 @@ h3 {
           align-items: center;
   background-color: white;
   position: fixed;
-  z-index: 50;
-  background-color: pink; }
+  z-index: 50; }
 
 #header .left {
   text-transform: uppercase;
@@ -50,8 +49,7 @@ h3 {
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
-          align-items: center;
-  background-color: red; }
+          align-items: center; }
 
 #header .left img {
   height: 2.5rem;
@@ -83,7 +81,7 @@ h3 {
   top: 64px;
   background-color: #D8D8D8;
   color: #4A4A4A;
-  /*padding: 4rem 3rem;*/ }
+  padding: 4rem 3rem; }
 
 #learn .image {
   background-image: url("../images/banner.jpg");
