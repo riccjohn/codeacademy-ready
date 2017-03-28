@@ -4,13 +4,19 @@ html {
 
 body {
   font-family: "Montserrat", sans-serif;
-  width: 100%;
+  width: 100%; }
+
+#main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center; }
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
 
 h1 {
   font-size: 2.5rem;
@@ -30,8 +36,8 @@ h3 {
 #header {
   height: 64px;
   padding: 0 3rem;
-  max-width: 1200px;
   width: 100%;
+  max-width: 1200px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -53,7 +59,8 @@ h3 {
 
 #header .left img {
   height: 2.5rem;
-  padding-right: .75rem; }
+  padding-right: .75rem;
+  /*width: 100%;*/ }
 
 .grey {
   color: grey; }
@@ -90,7 +97,7 @@ h3 {
   background-image: url("../images/banner.jpg");
   background-size: cover;
   height: 25rem;
-  width: 40rem; }
+  width: 60%; }
 
 #learn .info {
   padding-left: 5rem;
@@ -108,12 +115,21 @@ h3 {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-  height: 60%; }
+  height: 60%;
+  width: 40%; }
 
 .cta {
   color: white;
   background-color: #4A4A4A;
-  padding: .5rem 5rem;
+  padding: .5rem 0;
+  width: 100%;
   display: inline-block;
   font-weight: 300;
   text-align: center; }
+
+#practice {
+  position: relative;
+  top: 64px;
+  width: 100%;
+  max-width: 1200px;
+  height: 20rem; }
