@@ -72,6 +72,16 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/images\/favicon_128x128.png": {
+		"ft": 32768,
+		"iS": 1918,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/images\/favicon_128x128.png",
+		"oF": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"\/images\/ic-login.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -219,6 +229,16 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"\/styles\/style-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/styles\/style-min-min.css",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/styles\/style.css": {
 		"aP": 1,
 		"bl": 0,
@@ -233,6 +253,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/videos\/thesis.mp4",
+		"oF": 0
+		},
+	"\/xd\/colmarAcademy.xd": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/xd\/colmarAcademy.xd",
 		"oF": 0
 		}
 	},
