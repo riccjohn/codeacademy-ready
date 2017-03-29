@@ -9,12 +9,6 @@ body {
   width: 100%;
 }
 
-#main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 h1 {
   font-size: 2.5rem;
   font-weight: 700;
@@ -25,16 +19,32 @@ h2 {
 }
 
 h3 {
-  font-size: 1.5rem;
+  font-size: 1.75rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+  line-height: 1.5rem;
 }
 
 .flex-container {
   display: flex;
 }
 
+#main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.section {
+  width: 100%;
+  max-width: 1080px;
+}
+
 #header {
-  height: 64px;
-  padding: 0 3rem;
+  height: 4rem;
   width: 100%;
   max-width: 1200px;
   justify-content: space-between;
@@ -48,12 +58,13 @@ h3 {
   text-transform: uppercase;
   display: flex;
   align-items: center;
+  padding-left: 3rem;
+  color: #4A4A4A;
 }
 
 #header .left img {
   height: 2.5rem;
   padding-right: .75rem;
-  /*width: 100%;*/
 }
 
 .grey {
@@ -62,6 +73,7 @@ h3 {
 
 #header nav {
   width: 45%;
+  padding-right: 3rem;
 }
 
 #header nav ul {
@@ -76,48 +88,137 @@ h3 {
 }
 
 #learn {
-  width: 100%;
-  max-width: 1200px;
-  position: relative;
-  top: 64px;
   background-color: #D8D8D8;
+  position: relative;
+  top: 4rem;
   color: #4A4A4A;
-  padding: 4rem 3rem;
   align-items: center;
+}
+
+#learn .left {
+  /*width: 60%;*/
+  width: 38rem;
+  margin: 2rem;
 }
 
 #learn .image {
   background-image: url("../images/banner.jpg");
   background-size: cover;
-  height: 25rem;
-  width: 60%;
+  height: 19rem;
 }
 
-#learn .info {
-  padding-left: 5rem;
-  line-height: 2rem;
+#learn .right {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: flex-start;
-  height: 60%;
-  width: 40%;
+  height: 20rem;
+  margin-right: 2rem;
+  /*background-color: lightblue;*/
 }
 
-.cta {
-  color: white;
+.button {
   background-color: #4A4A4A;
-  padding: .5rem 0;
-  width: 100%;
-  display: inline-block;
-  font-weight: 300;
+  color: white;
+  padding: 1rem;
   text-align: center;
+  width: 80%;
+  align-self: flex-start;
 }
 
 #practice {
   position: relative;
-  top: 64px;
-  width: 100%;
-  max-width: 1200px;
+  top: 4rem;
+  /*background-color: skyblue;*/
+  height: 40rem;
+  justify-content: space-between;
+}
+
+#practice .hero {
+  width: 34rem;
+  margin: 2rem;
+}
+
+#practice .hero-image {
+  background-image: url("../images/information-main.jpg");
+  background-size: cover;
   height: 20rem;
+  margin-bottom: 2rem;
+}
+
+#practice .more {
+  margin: 2rem;
+}
+
+.more {
+  width: 423px;
+  margin: 1rem;
+  border-left: 1px solid #D8D8D8;
+  /*background-color: limegreen;*/
+}
+
+.article {
+  display: flex;
+  height: 15rem;
+  height: 11rem;
+  margin: 1rem;
+  border-bottom: 1px solid #D8D8D8;
+  width: 100%;
+  line-height: 1.5rem;
+}
+
+#article1 .image, #article2 .image, #article3 .image {
+  width: 35%;
+  height: 9rem;
+  margin-right: 2rem;
+}
+
+#article1 .image {
+  background-image: url("../images/information-orientation.jpg");
+  background-size: cover;
+}
+
+#article2 .image {
+  background-image: url("../images/information-campus.jpg");
+  background-size: cover;
+}
+
+#article3 .image {
+  background-image: url("../images/information-guest-lecture.jpg");
+  background-size: cover;
+}
+
+#practice h3 {
+  margin-bottom: 2rem;
+  color: #4A4A4A;
+  font-weight: 700;
+  /*font-size: 1.75rem;*/
+}
+
+#practice .quote {
+  line-height: 1.25rem;
+  color: grey;
+  font-weight: 300;
+  margin-bottom: 2rem;
+}
+
+.author {
+  font-size: .75rem;
+  color: #4A4A4A;
+}
+
+#practice h4 {
+  color: #4A4A4A;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+#practice .article p {
+  font-weight: 300;
+  font-size: .85rem;
+  margin-bottom: 2rem;
+}
+
+.article a {
+  text-decoration: none;
+  color: skyblue;
 }
