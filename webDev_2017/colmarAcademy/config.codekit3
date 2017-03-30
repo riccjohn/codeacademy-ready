@@ -209,15 +209,11 @@
 		"oAP": "\/index.html",
 		"oF": 0
 		},
-	"\/resources\/colmar-academy-spec.png": {
-		"ft": 32768,
-		"iS": 7642529,
-		"l": 1,
-		"oA": 0,
-		"oAP": "\/resources\/colmar-academy-spec.png",
-		"oF": 0,
-		"opt": 0,
-		"q": 100
+	"\/resources": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "\/build\/resources",
+		"oF": 0
 		},
 	"\/styles\/reset.css": {
 		"aP": 1,
@@ -2211,7 +2207,7 @@
 	"languageDefaultsUserDefined": [
 		],
 	"previewPathAddition": "",
-	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules",
+	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules, \/resources",
 	"sourceFolderName": "source",
 	"uglifyDefinesString": "",
 	"uglifyFlags2": {

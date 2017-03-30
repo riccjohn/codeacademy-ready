@@ -212,25 +212,37 @@ nav {
   text-decoration: none;
   color: skyblue;
   font-weight: 300;
+}
 
-/*
-
-#practice h3 {
-  margin-bottom: 2rem;
+#start {
+  position: relative;
+  top: 4rem;
   color: #4A4A4A;
-  font-weight: 700;
+  background-color: #D8D8D8;
+  height: 54rem;
+  display: flex;
 }
 
-#practice h4 {
-  color: #4A4A4A;
-  font-weight: 400;
-  margin-bottom: 1rem;
+.courses {
+  width: 60rem;
+  height: 42rem;
 }
 
-#practice .article p {
-  font-weight: 300;
-  font-size: .85rem;
-  margin-bottom: 2rem;
+.course {
+  height: 20.25rem;
+  /*width: 30%;*/
+  width: 19rem;
+  margin: .5rem 1rem;
+  background-color: white;
+  text-align: center;
 }
 
-}*/
+.course .image {
+  height: 9.5rem;
+  background-image: url("../images/course-software.jpg");
+  background-size: cover;
+}
+
+.course .title {
+  margin: 1rem;
+}
