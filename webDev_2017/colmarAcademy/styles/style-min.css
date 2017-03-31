@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,700");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700");
 html {
   font-size: 16px; }
 
@@ -84,13 +84,18 @@ nav {
 #header nav ul li a {
   text-decoration: none;
   color: grey;
-  margin-left: 1rem; }
+  margin-left: 1rem;
+  -webkit-transition: color 400ms;
+  transition: color 400ms; }
+
+#header nav ul li a:hover {
+  color: skyblue; }
 
 #learn {
   position: relative;
   top: 4rem;
   color: #4A4A4A;
-  background-color: #D8D8D8;
+  background-color: #EAEBEC;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -133,7 +138,12 @@ nav {
           justify-content: center;
   height: 3rem;
   text-align: center;
-  width: 80%; }
+  width: 80%;
+  -webkit-transition: background-color 400ms;
+  transition: background-color 400ms; }
+
+.button:hover {
+  background-color: skyblue; }
 
 #practice {
   position: relative;
@@ -143,7 +153,7 @@ nav {
   display: flex;
   height: 40rem; }
 
-#practice .left {
+#practice .left, #thesis .left {
   width: 40rem;
   margin: 2rem 1.25rem 2rem 1.5rem; }
 
@@ -175,7 +185,6 @@ nav {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  /*justify-content: space-between;*/
   height: 40rem; }
 
 .article {
@@ -190,15 +199,13 @@ nav {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border-left: 1px solid #D8D8D8;
-  border-bottom: 1px solid #D8D8D8;
-  padding: 1rem;
-  /*background-color: red;*/ }
+  border-left: 1px solid #EAEBEC;
+  border-bottom: 1px solid #EAEBEC;
+  padding: 1rem; }
 
-.article .image {
+.article .image, .study .image {
   width: 9.75rem;
-  height: 9.75rem;
-  background-color: skyblue; }
+  height: 9.75rem; }
 
 #article1 .image {
   background-image: url("../images/information-orientation.jpg");
@@ -212,7 +219,7 @@ nav {
   background-image: url("../images/information-guest-lecture.jpg");
   background-size: cover; }
 
-.article .text {
+.article .text, .study .text {
   height: 60%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -224,14 +231,13 @@ nav {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  /*background-color: pink;*/
   max-width: 16rem; }
 
-.article .sub {
+.article .sub, .study .text {
   font-size: .85rem;
   font-weight: 300; }
 
-.article a {
+.article a, .study a {
   text-decoration: none;
   color: skyblue;
   font-weight: 300; }
@@ -240,28 +246,174 @@ nav {
   position: relative;
   top: 4rem;
   color: #4A4A4A;
-  background-color: #D8D8D8;
-  height: 54rem;
+  background-color: #EAEBEC;
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
 
-.courses {
+.title {
+  display: block;
+  margin: 2rem;
+  color: #4A4A4A; }
+
+#courses {
   width: 60rem;
-  height: 42rem; }
+  height: 42rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 4rem; }
 
 .course {
   height: 20.25rem;
-  /*width: 30%;*/
-  width: 19rem;
+  display: inline-block;
+  width: 30%;
   margin: .5rem 1rem;
-  background-color: white;
-  text-align: center; }
+  background-color: white; }
 
-.course .image {
+.course h4 {
+  font-weight: 600; }
+
+.course p {
+  font-weight: 300; }
+
+.course .text {
+  line-height: 1.25rem;
+  padding: 1.25rem; }
+
+.course h4 {
+  padding-bottom: 1rem; }
+
+.course span {
+  display: inline-block;
+  margin-bottom: 1rem; }
+
+#engineering .image {
   height: 9.5rem;
   background-image: url("../images/course-software.jpg");
   background-size: cover; }
 
-.course .title {
+#computer-art .image {
+  height: 9.5rem;
+  background-image: url("../images/course-computer-art.jpg");
+  background-size: cover; }
+
+#design .image {
+  height: 9.5rem;
+  background-image: url("../images/course-design.jpg");
+  background-size: cover; }
+
+#data .image {
+  height: 9.5rem;
+  background-image: url("../images/course-data.jpg");
+  background-size: cover; }
+
+#business .image {
+  height: 9.5rem;
+  background-image: url("../images/course-business.jpg");
+  background-size: cover; }
+
+#marketing .image {
+  height: 9.5rem;
+  background-image: url("../images/course-marketing.jpg");
+  background-size: cover; }
+
+#thesis {
+  position: relative;
+  top: 4rem;
+  height: 100%;
+  color: #4A4A4A; }
+
+#thesis .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+#thesis h1 {
+  display: block;
+  text-align: center; }
+
+#thesis video {
+  margin-bottom: 2rem; }
+
+#thesis .headline {
+  margin-bottom: 1.5rem; }
+
+#thesis .more {
+  margin: 2rem 1.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 40rem; }
+
+.study {
+  width: 28rem;
+  height: 11.75rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  /*padding: 0rem 1rem 1rem 1rem;*/ }
+
+.study:first-child {
+  background-color: #EAEBEC; }
+
+#thesis1 .image {
+  background-image: url("../images/thesis-fisma.jpg");
+  background-size: cover;
   margin: 1rem; }
+
+#thesis2 .image {
+  background-image: url("../images/thesis-now-and-then.jpg");
+  background-size: cover;
+  margin: 1rem; }
+
+#footer {
+  border-top: 1px solid #EAEBEC;
+  color: grey;
+  font-weight: 400;
+  font-size: .85rem;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+#footer ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+#footer a {
+  text-decoration: none;
+  color: grey;
+  margin-left: 1rem; }
