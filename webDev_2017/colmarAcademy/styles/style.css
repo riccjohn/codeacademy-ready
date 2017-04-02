@@ -95,11 +95,15 @@ nav {
   align-items: center;
 }
 
+#learn .left {
+  width: 60%;
+}
+
 #learn .left .banner {
   background-image: url("../images/banner.jpg");
   background-size: cover;
   height: 30rem;
-  width: 40rem;
+  /*width: 40rem;*/
   margin: 2rem 1.25rem 2rem 1.5rem;
 }
 
@@ -144,6 +148,7 @@ nav {
   background-size: cover;
   margin-bottom: 2rem;
   height: 21.5rem;
+  width: 40rem;
 }
 
 #practice .headline {
@@ -173,7 +178,6 @@ nav {
   width: 28rem;
   height: 9.75rem;
   display: flex;
-  justify-content: space-between;
   align-items: center;
   border-left: 1px solid #EAEBEC;
   border-bottom: 1px solid #EAEBEC;
@@ -205,7 +209,9 @@ nav {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  max-width: 16rem;
+  /*width: 100%;*/
+  max-width: 15rem;
+  margin: 0 1rem;
 }
 
 .article .sub, .study .text {
@@ -213,7 +219,7 @@ nav {
   font-weight: 300;
 }
 
-.article a, .study a {
+.article a {
   text-decoration: none;
   color: skyblue;
   font-weight: 300;
@@ -338,16 +344,15 @@ nav {
   margin: 2rem 1.5rem;
   display: flex;
   flex-direction: column;
-  height: 40rem;
+  /*height: 40rem;*/
 }
 
 .study {
-  width: 28rem;
-  height: 11.75rem;
+  /*width: 28rem;*/
+  height: 9.75rem;
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  /*padding: 0rem 1rem 1rem 1rem;*/
+  padding: 1rem;
 }
 
 .study:first-child {
@@ -357,13 +362,13 @@ nav {
 #thesis1 .image {
   background-image: url("../images/thesis-fisma.jpg");
   background-size: cover;
-  margin: 1rem;
+  /*margin: 1rem;*/
 }
 
 #thesis2 .image {
   background-image: url("../images/thesis-now-and-then.jpg");
   background-size: cover;
-  margin: 1rem;
+  /*margin: 1rem;*/
 }
 
 #footer {
@@ -386,4 +391,145 @@ nav {
   text-decoration: none;
   color: grey;
   margin-left: 1rem;
+}
+
+/*mobile nav*/
+
+#header-mobile {
+  width: 100%;
+  max-width: 470px;
+  height: 4rem;
+  border-bottom: 1px solid #DBDBDB;
+  position: fixed;
+  z-index: 50;
+  background-color: white;
+}
+
+#header-mobile img {
+  display: inline-block;
+  min-height: 2.25rem;
+  height: auto;
+  width: auto;
+  margin: .5rem 2rem;
+}
+
+#header-mobile nav {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+#header-mobile nav ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*MOBILE FORMATTING*/
+@media only screen and (min-width: 471px) {
+  #header-mobile {
+    display: none;
+  }
+}
+
+
+@media only screen and (max-width: 470px) {
+
+  #header {
+    display: none;
+  }
+
+  #header-mobile {
+    display: flex;
+  }
+
+  .section {
+    width: 100%;
+    max-width: 470px;
+  }
+
+  .left img, .left .banner, .hero-image {
+    display: none;
+  }
+
+  #learn .right {
+    margin: 2.5rem 1rem;
+    text-align: center;
+    align-items: center;
+  }
+
+  #practice {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .headline, .quote, .author {
+    display: none;
+  }
+
+  #practice .article {
+    flex-direction: column;
+    border: none;
+    height: 30%;
+  }
+
+  #practice .article .image {
+    width: 100%;
+    height: 10rem;
+  }
+
+  .course {
+    width: 100%;
+    max-width: 470px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  #courses {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 470px;
+    height: 100%;
+  }
+
+  .course {
+    /*height: 10rem;*/
+    height: auto;
+    width: 80%;
+    margin: 1rem;
+    /*padding: 1rem;*/
+  }
+
+  .course h4 {
+    padding: 1rem;
+  }
+
+  .course span, .course p {
+    display: none;
+  }
+
+  #start .image {
+    display: none;
+  }
+
+  #thesis .container {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  #thesis video {
+    width: 470px;
+    height: 100%;
+  }
+
 }
