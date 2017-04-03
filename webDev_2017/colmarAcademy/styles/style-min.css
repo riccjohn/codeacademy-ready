@@ -91,6 +91,12 @@ nav {
 #header nav ul li a:hover {
   color: skyblue; }
 
+#header-mobile {
+  display: none; }
+
+#spacer {
+  display: none; }
+
 #learn {
   position: relative;
   top: 4rem;
@@ -103,14 +109,11 @@ nav {
       -ms-flex-align: center;
           align-items: center; }
 
-#learn .left {
-  width: 60%; }
-
 #learn .left .banner {
   background-image: url("../images/banner.jpg");
   background-size: cover;
   height: 30rem;
-  /*width: 40rem;*/
+  width: 40rem;
   margin: 2rem 1.25rem 2rem 1.5rem; }
 
 #learn .right {
@@ -389,7 +392,7 @@ nav {
   background-size: cover;
   /*margin: 1rem;*/ }
 
-#footer {
+footer {
   border-top: 1px solid #EAEBEC;
   color: grey;
   font-weight: 400;
@@ -405,7 +408,7 @@ nav {
       -ms-flex-align: center;
           align-items: center; }
 
-#footer ul {
+footer ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -413,7 +416,7 @@ nav {
       -ms-flex-pack: justify;
           justify-content: space-between; }
 
-#footer a {
+footer a {
   text-decoration: none;
   color: grey;
   margin-left: 1rem; }
@@ -459,10 +462,6 @@ nav {
           align-items: center; }
 
 /*MOBILE FORMATTING*/
-@media only screen and (min-width: 471px) {
-  #header-mobile {
-    display: none; } }
-
 @media only screen and (max-width: 470px) {
   #header {
     display: none; }
@@ -475,6 +474,13 @@ nav {
     max-width: 470px; }
   .left img, .left .banner, .hero-image {
     display: none; }
+  #spacer {
+    display: block;
+    height: 11.25rem;
+    width: 100%;
+    background-color: #4A4A4A;
+    position: relative;
+    top: 4rem; }
   #learn .right {
     margin: 2.5rem 1rem;
     text-align: center;
@@ -492,16 +498,49 @@ nav {
     height: 100%; }
   .headline, .quote, .author {
     display: none; }
+  #practice .left {
+    display: none; }
   #practice .article {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
     border: none;
-    height: 30%; }
-  #practice .article .image {
+    height: 30%;
     width: 100%;
-    height: 10rem; }
+    padding: 0;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid grey; }
+  #practice .more {
+    height: 100%;
+    width: 100%;
+    margin: 2rem 0; }
+  #practice .article .image {
+    width: 80%;
+    height: 15rem; }
+  #practice .more .text {
+    width: 100%;
+    max-width: 100%;
+    text-align: center; }
+  #practice .more h4 {
+    font-size: 2rem;
+    margin: 1rem; }
+  #practice .more p {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    margin: 1rem; }
+  #practice .more a {
+    font-size: 1.2rem;
+    margin: 1rem; }
+  #article1 .image {
+    background-image: url("../images/information-orientation-mobile.jpg");
+    background-size: cover; }
+  #article2 .image {
+    background-image: url("../images/information-campus-mobile.jpg");
+    background-size: cover; }
+  #article3 .image {
+    background-image: url("../images/information-guest-lecture-mobile.jpg");
+    background-size: cover; }
   .course {
     width: 100%;
     max-width: 470px;
@@ -516,7 +555,7 @@ nav {
         -ms-flex-pack: justify;
             justify-content: space-between; }
   #courses {
-    margin: 0;
+    margin: 2rem 0;
     padding: 0;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -535,11 +574,9 @@ nav {
     max-width: 470px;
     height: 100%; }
   .course {
-    /*height: 10rem;*/
     height: auto;
     width: 80%;
-    margin: 1rem;
-    /*padding: 1rem;*/ }
+    margin: .5rem; }
   .course h4 {
     padding: 1rem; }
   .course span, .course p {
@@ -552,6 +589,18 @@ nav {
         -ms-flex-direction: column;
             flex-direction: column;
     width: 100%; }
+  #thesis .left {
+    width: 100%;
+    margin: 0; }
   #thesis video {
-    width: 470px;
-    height: 100%; } }
+    /*max-width: 470px;*/
+    width: 100%;
+    height: 100%; }
+  #thesis .more {
+    display: none; }
+  footer {
+    width: 100%;
+    max-width: 470px;
+    margin: 1.5rem 1.5rem 0 1.5rem; }
+  footer span {
+    padding: 1rem; } }
