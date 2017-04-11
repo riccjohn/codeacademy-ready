@@ -15,10 +15,122 @@
 		"oAP": "\/build\/build",
 		"oF": 0
 		},
+	"\/img\/favicon.png": {
+		"ft": 32768,
+		"iS": 193,
+		"oA": 0,
+		"oAP": "\/build\/img\/favicon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/logo.png": {
+		"ft": 32768,
+		"iS": 5061,
+		"oA": 0,
+		"oAP": "\/build\/img\/logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/photos\/featured-project.png": {
+		"ft": 32768,
+		"iS": 482866,
+		"oA": 0,
+		"oAP": "\/build\/img\/photos\/featured-project.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/photos\/jumbotron-beer.jpg": {
+		"ft": 16384,
+		"iS": 601733,
+		"oA": 0,
+		"oAP": "\/build\/img\/photos\/jumbotron-beer.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/photos\/jumbotron-bike.jpg": {
+		"ft": 16384,
+		"iS": 1802224,
+		"oA": 0,
+		"oAP": "\/build\/img\/photos\/jumbotron-bike.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/photos\/jumbotron-duffel.jpg": {
+		"ft": 16384,
+		"iS": 587210,
+		"oA": 0,
+		"oAP": "\/build\/img\/photos\/jumbotron-duffel.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/photos\/jumbotron-flowers.jpg": {
+		"ft": 16384,
+		"iS": 736304,
+		"oA": 0,
+		"oAP": "\/build\/img\/photos\/jumbotron-flowers.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/photos\/project1.png": {
+		"ft": 32768,
+		"iS": 210599,
+		"oA": 0,
+		"oAP": "\/build\/img\/photos\/project1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/photos\/project2.png": {
+		"ft": 32768,
+		"iS": 201837,
+		"oA": 0,
+		"oAP": "\/build\/img\/photos\/project2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/photos\/project3.png": {
+		"ft": 32768,
+		"iS": 292947,
+		"oA": 0,
+		"oAP": "\/build\/img\/photos\/project3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/index.html": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/build\/index.html",
+		"oF": 0
+		},
+	"\/prepros-6.config": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/prepros-6.config",
 		"oF": 0
 		},
 	"\/styles\/reset.css": {
