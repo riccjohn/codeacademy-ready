@@ -15,131 +15,150 @@
 		"oAP": "\/build\/build",
 		"oF": 0
 		},
-	"\/img\/favicon.png": {
-		"ft": 32768,
-		"iS": 193,
-		"oA": 0,
-		"oAP": "\/build\/img\/favicon.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/img\/logo.png": {
-		"ft": 32768,
-		"iS": 5061,
-		"oA": 0,
-		"oAP": "\/build\/img\/logo.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/img\/photos\/featured-project.png": {
-		"ft": 32768,
-		"iS": 482866,
-		"oA": 0,
-		"oAP": "\/build\/img\/photos\/featured-project.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/img\/photos\/jumbotron-beer.jpg": {
-		"ft": 16384,
-		"iS": 601733,
-		"oA": 0,
-		"oAP": "\/build\/img\/photos\/jumbotron-beer.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/photos\/jumbotron-bike.jpg": {
-		"ft": 16384,
-		"iS": 1802224,
-		"oA": 0,
-		"oAP": "\/build\/img\/photos\/jumbotron-bike.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/photos\/jumbotron-duffel.jpg": {
-		"ft": 16384,
-		"iS": 587210,
-		"oA": 0,
-		"oAP": "\/build\/img\/photos\/jumbotron-duffel.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/photos\/jumbotron-flowers.jpg": {
-		"ft": 16384,
-		"iS": 736304,
-		"oA": 0,
-		"oAP": "\/build\/img\/photos\/jumbotron-flowers.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/photos\/project1.png": {
-		"ft": 32768,
-		"iS": 210599,
-		"oA": 0,
-		"oAP": "\/build\/img\/photos\/project1.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/img\/photos\/project2.png": {
-		"ft": 32768,
-		"iS": 201837,
-		"oA": 0,
-		"oAP": "\/build\/img\/photos\/project2.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/img\/photos\/project3.png": {
-		"ft": 32768,
-		"iS": 292947,
-		"oA": 0,
-		"oAP": "\/build\/img\/photos\/project3.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"\/index.html": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/build\/index.html",
 		"oF": 0
 		},
-	"\/prepros-6.config": {
+	"\/ref\/Jumpstart.webloc": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/build\/prepros-6.config",
+		"oAP": "\/build\/ref\/Jumpstart.webloc",
 		"oF": 0
 		},
-	"\/styles\/reset.css": {
+	"\/resources\/img\/favicon.png": {
+		"ft": 32768,
+		"iS": 193,
+		"oA": 0,
+		"oAP": "\/build\/resources\/img\/favicon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/resources\/img\/logo.png": {
+		"ft": 32768,
+		"iS": 5061,
+		"oA": 0,
+		"oAP": "\/build\/resources\/img\/logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/resources\/img\/photos\/featured-project.png": {
+		"ft": 32768,
+		"iS": 482866,
+		"oA": 0,
+		"oAP": "\/build\/resources\/img\/photos\/featured-project.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/resources\/img\/photos\/jumbotron-beer.jpg": {
+		"ft": 16384,
+		"iS": 601733,
+		"oA": 0,
+		"oAP": "\/build\/resources\/img\/photos\/jumbotron-beer.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/resources\/img\/photos\/jumbotron-bike.jpg": {
+		"ft": 16384,
+		"iS": 1802224,
+		"oA": 0,
+		"oAP": "\/build\/resources\/img\/photos\/jumbotron-bike.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/resources\/img\/photos\/jumbotron-duffel.jpg": {
+		"ft": 16384,
+		"iS": 587210,
+		"oA": 0,
+		"oAP": "\/build\/resources\/img\/photos\/jumbotron-duffel.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/resources\/img\/photos\/jumbotron-flowers.jpg": {
+		"ft": 16384,
+		"iS": 736304,
+		"oA": 0,
+		"oAP": "\/build\/resources\/img\/photos\/jumbotron-flowers.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/resources\/img\/photos\/project1.png": {
+		"ft": 32768,
+		"iS": 210599,
+		"oA": 0,
+		"oAP": "\/build\/resources\/img\/photos\/project1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/resources\/img\/photos\/project2.png": {
+		"ft": 32768,
+		"iS": 201837,
+		"oA": 0,
+		"oAP": "\/build\/resources\/img\/photos\/project2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/resources\/img\/photos\/project3.png": {
+		"ft": 32768,
+		"iS": 292947,
+		"oA": 0,
+		"oAP": "\/build\/resources\/img\/photos\/project3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/resources\/js\/main.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/build\/resources\/js\/main-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/resources\/styles\/reset.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/build\/styles\/reset-min.css",
+		"oAP": "\/build\/resources\/styles\/reset-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/resources\/styles\/style.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/build\/resources\/styles\/style-min.css",
 		"oF": 0,
 		"oS": 0
 		},
