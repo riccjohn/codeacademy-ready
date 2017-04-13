@@ -1,9 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Monoton|Open+Sans:400,600,700');
 
-/*font-family: 'Open Sans', sans-serif;
-font-family: 'Monoton', cursive;*/
 html {
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.4;
 }
 
@@ -47,6 +45,8 @@ nav {
 .jumbotron h1 {
   font-family: 'Monoton', cursive;
   font-size: 7rem;
+  text-transform: uppercase;
+  margin-top: 11.85rem;
 }
 
 .jumbotron p {
@@ -54,10 +54,12 @@ nav {
   margin: auto;
 }
 
-.feature-hero {
-}
-
 h3 {
   font-weight: 600;
   color: #399bd1;
+}
+
+h4 {
+  font-size: 1.3rem;
+  font-weight: bold;
 }

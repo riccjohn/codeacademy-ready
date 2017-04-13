@@ -21,6 +21,22 @@
 		"oAP": "\/build\/index.html",
 		"oF": 0
 		},
+	"\/prepros-6.config": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/prepros-6.config",
+		"oF": 0
+		},
+	"\/ref\/jumpstart-specs.jpg": {
+		"ft": 16384,
+		"iS": 2798167,
+		"oA": 0,
+		"oAP": "\/build\/ref\/jumpstart-specs.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"\/ref\/Jumpstart.webloc": {
 		"ft": 8192,
 		"oA": 2,
@@ -159,16 +175,6 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "\/build\/resources\/styles\/style-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/styles\/style.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/build\/styles\/style-min.css",
 		"oF": 0,
 		"oS": 0
 		}
