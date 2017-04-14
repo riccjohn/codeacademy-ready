@@ -54,12 +54,32 @@ nav {
   margin: auto;
 }
 
-h3 {
-  font-weight: 600;
+#featured {
+  /*padding-top: 10rem;*/
+}
+
+#featured .image-container {
+  height: 19rem;
+}
+
+
+h2 {
+  font-size: 1.7rem;
+  font-weight: 700;
   color: #399bd1;
 }
 
 h4 {
   font-size: 1.3rem;
   font-weight: bold;
+}
+
+
+#projects {
+  padding-top: 10rem;
+}
+
+.project .image-container {
+  height: 13.5rem;
+  overflow: hidden;
 }
