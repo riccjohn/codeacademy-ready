@@ -289,9 +289,6 @@ nav {
   margin: .5rem 1rem;
   background-color: white; }
 
-.course h4 {
-  font-weight: 600; }
-
 .course p {
   font-weight: 300; }
 
@@ -300,6 +297,7 @@ nav {
   padding: 1.25rem; }
 
 .course h4 {
+  font-weight: 600;
   padding-bottom: 1rem; }
 
 .course span {
@@ -365,11 +363,9 @@ nav {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
-          flex-direction: column;
-  /*height: 40rem;*/ }
+          flex-direction: column; }
 
 .study {
-  /*width: 28rem;*/
   height: 9.75rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -384,13 +380,11 @@ nav {
 
 #thesis1 .image {
   background-image: url("../images/thesis-fisma.jpg");
-  background-size: cover;
-  /*margin: 1rem;*/ }
+  background-size: cover; }
 
 #thesis2 .image {
   background-image: url("../images/thesis-now-and-then.jpg");
-  background-size: cover;
-  /*margin: 1rem;*/ }
+  background-size: cover; }
 
 footer {
   border-top: 1px solid #EAEBEC;
@@ -461,6 +455,131 @@ footer a {
       -ms-flex-align: center;
           align-items: center; }
 
+/*1200px Breakpoint*/
+@media only screen and (max-width: 1200px) and (min-width: 471px) {
+  #learn {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+  #learn .right {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center; }
+  #learn .right h1, #learn .right h4 {
+    padding-bottom: 3rem; }
+  #learn .button {
+    width: 50%; }
+  #practice {
+    width: 100%; }
+  #practice .left {
+    width: 66%; }
+  #practice .hero-image {
+    width: 100%; }
+  #practice .right, #thesis .right {
+    width: 33%;
+    margin: 0; }
+  #practice .article {
+    width: 100%;
+    padding: 0; }
+  #practice .article .image, #thesis .study .image {
+    display: none; }
+  #practice .article .text {
+    width: 66%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    height: 100%; }
+  #courses {
+    width: 100%;
+    height: auto; }
+  #start .course {
+    width: 45%;
+    height: 15rem;
+    margin: 2.5%;
+    padding: 0; }
+  #start .course .image {
+    height: 45%;
+    padding-bottom: 2.5%; }
+  #start .course .text {
+    height: 47.5%;
+    line-height: 1rem;
+    padding: .75rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around; }
+  #start h4 {
+    font-size: 1rem;
+    padding: 0; }
+  #start span {
+    font-size: .8rem;
+    padding: 0;
+    margin: 0; }
+  #start p {
+    padding: 0;
+    margin: 0 0 1rem 0; }
+  #thesis .study {
+    width: 50%;
+    background-color: #EAEBEC;
+    text-align: center;
+    padding: 0;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+  #thesis .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+  #thesis .hero {
+    width: 100%;
+    margin: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  #thesis .quote {
+    width: 90%; }
+  #thesis .right {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 100%;
+    margin: 0; } }
+
+footer {
+  position: relative;
+  top: 4rem;
+  padding: 1rem 0;
+  -ms-flex-pack: distribute;
+      justify-content: space-around; }
+
 /*MOBILE FORMATTING*/
 @media only screen and (max-width: 470px) {
   #header {
@@ -500,6 +619,8 @@ footer a {
     display: none; }
   #practice .left {
     display: none; }
+  #practice .article .image, #thesis .study .image {
+    display: inline-block; }
   #practice .article {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -517,7 +638,7 @@ footer a {
     margin: 2rem 0; }
   #practice .article .image {
     width: 80%;
-    height: 15rem; }
+    height: 10rem; }
   #practice .more .text {
     width: 100%;
     max-width: 100%;
@@ -541,6 +662,8 @@ footer a {
   #article3 .image {
     background-image: url("../images/information-guest-lecture-mobile.jpg");
     background-size: cover; }
+  #start {
+    background-color: white; }
   .course {
     width: 100%;
     max-width: 470px;
@@ -576,7 +699,8 @@ footer a {
   .course {
     height: auto;
     width: 80%;
-    margin: .5rem; }
+    margin: .5rem;
+    background-color: #EAEBEC; }
   .course h4 {
     padding: 1rem; }
   .course span, .course p {
@@ -592,15 +716,18 @@ footer a {
   #thesis .left {
     width: 100%;
     margin: 0; }
+  #thesis .title {
+    margin-top: 0; }
   #thesis video {
     /*max-width: 470px;*/
     width: 100%;
-    height: 100%; }
+    height: 100%;
+    margin: 0;
+    paddig: 0; }
   #thesis .more {
     display: none; }
   footer {
     width: 100%;
     max-width: 470px;
-    margin: 1.5rem 1.5rem 0 1.5rem; }
-  footer span {
-    padding: 1rem; } }
+    margin: 0 1.5rem 0 1.5rem;
+    padding: 1.5rem; } }

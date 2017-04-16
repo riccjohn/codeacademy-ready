@@ -11,11 +11,6 @@ body {
   background-color: #fff;
 }
 
-.container-fluid {
-  padding: 0 1rem;
-  margin: 0 auto;
-}
-
 nav {
   padding: 0 2rem;
   font-size: 1rem;
@@ -34,7 +29,11 @@ nav {
   background-repeat: no-repeat;
   color: #fff;
   text-align: center;
-  padding-top: 10rem;
+  /*padding: 11.8rem 0;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-shadow: 0 2px 4px black;
 }
 
@@ -46,22 +45,55 @@ nav {
   font-family: 'Monoton', cursive;
   font-size: 7rem;
   text-transform: uppercase;
-  margin-top: 11.85rem;
+  display: block;
 }
 
 .jumbotron p {
   max-width: 51rem;
   margin: auto;
+  display: block;
 }
 
-#featured {
-  /*padding-top: 10rem;*/
+button {
+  width: 11.4rem;
+  padding: 1.3rem 0;
+  margin-top: 2.8rem;
+}
+
+.btn-primary {
+  background-color: #399bd1;
+  border-color: #3691c3;
 }
 
 #featured .image-container {
-  height: 19rem;
+  overflow: hidden;
+  margin-top: 20px;
 }
 
+#featured .image-container .img {
+  height: 19rem;
+  background-image: url("../img/photos/featured-project.png");
+  background-size: cover;
+}
+
+#featured ul li{
+  line-height: 1.4rm;
+  color: rgba(0,0,0,0.7);
+}
+
+.img {
+  transition: all .5s ease-in-out;
+}
+
+.img:hover {
+  transform: scale(1.2, 1.2);
+  opacity: .7;
+
+}
+
+.image-container img {
+  opacity: 0.7;
+}
 
 h2 {
   font-size: 1.7rem;
@@ -76,10 +108,62 @@ h4 {
 
 
 #projects {
-  padding-top: 10rem;
+  padding-bottom: 5.85rem;
+}
+
+#tights .image-container .img {
+  background-image: url("../img/photos/project1.png");
+  background-size: cover;
+}
+
+#smart-home .image-container .img {
+  background-image: url("../img/photos/project2.png");
+  background-size: cover;
+}
+
+#streetlife .image-container .img {
+  background-image: url("../img/photos/project3.png");
+  background-size: cover;
 }
 
 .project .image-container {
-  height: 13.5rem;
   overflow: hidden;
+  margin-top: 20px;
+}
+
+.project .image-container .img {
+  height: 13.5rem;
+}
+
+#footer {
+  background-color: #f3f3f3;
+  padding: 5.2rem 0;
+  text-align: center;
+}
+
+#footer strong {
+  display: inline-block;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1.4rem;
+}
+
+#footer p {
+  max-width: 42rem;
+  margin: auto;
+}
+
+@media only screen and (max-width: 767px) {
+  .jumbotron {
+    height: 60rem;
+  }
+
+  .jumbotron h1 {
+    font-size: 5.7rem;
+  }
+
+  .jumbotron button {
+
+  }
+
 }

@@ -2,6 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>Jumpstart</title>
     <link rel="stylesheet" type="text/css" href="./resources/styles/reset.css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -21,22 +22,28 @@
         </div>
       </nav>
       <div class="jumbotron jumbotron-bike">
-        <h1>Get Going</h1>
-        <p>Jumpstart your startup with some crowdsourced seed money, or support one of our 300,000,000+ creators and get rewards.</p>
+        <div class="container-fluid">
+          <h1>Get Going</h1>
+          <p>Jumpstart your startup with some crowdsourced seed money, or support one of our 300,000,000+ creators and get rewards.</p>
+          <button type="button" class="btn btn-primary btn-lg">Jump in</button>
+        </div>
       </div>
-      <div id="featured" class="container-fluid">
+      <div id="featured" class="container">
         <h2>Featured project</h2>
-        <div id="hero" class="col-md-6 col-xs-12">
+        <div id="hero" class=" row  col-md-6 col-xs-12">
           <div class="image-container">
             <a href="#">
-              <img src="./resources/img/photos/featured-project.png" />
+              <div class="img">
+
+              </div>
+              <!-- <img src="./resources/img/photos/featured-project.png" /> -->
             </a>
           </div>
         </div>
         <div class="projTitle col-md-3 col-xs-6">
           <h3>DeFrost: A Documentary</h3>
           <p>by Leo De Firenze</p>
-          <p>DeFrost is a documentary about growing up in a little red house in a cold, harsh valley. This is a story about my mother's childhood. This film attempts to capture vignettes of her upbringing â€” her family, friends, pets, and eventual depature from a freezing valley in Northern Italy â€” through beautiful cinematography and narration.</p>
+          <p>DeFrost is a documentary about growing up in a little red house in a cold, harsh valley. This is a story about my mother's childhood. This film attempts to capture vignettes of her upbringing, her family, friends, pets, and eventual depature from a freezing valley in Northern Italy through beautiful cinematography and narration.</p>
         </div>
         <div class="projCategories col-md-3 col-xs-6">
           <h3>Project Categories</h3>
@@ -60,44 +67,55 @@
           </ul>
         </div>
       </div>
-      <div id="projects" class="container-fluid">
+      <div id="projects" class="container">
+        <h2 col-xs-12>Projects</h2>
         <div class="row">
-          <h2 col-xs-12>Projects</h2>
-        </div>
-        <div class="row">
-          <div id="tights" class="project col-xs-12 col-sm-4">
+          <div id="tights" class="project col-sm-4 col-xs-12">
             <div class="image-container">
               <a href="#">
-                <img src="./resources/img/photos/project1.png" />
+                <div class="img">
+
+                </div>
+                <!-- <img src="./resources/img/photos/project1.png" /> -->
               </a>
             </div>
             <h3>The Right Tights</h3>
             <p>by Riley Mae</p>
             <p>These tights are 50 denier, beautifully constructed, hand-dyed, and guaranteed to last (no more ladders!). Made with high quality, completely toxic-free materials. Custom colors available to all backers.</p>
           </div>
-          <div id="tights" class="project col-xs-12 col-sm-4">
+          <div id="smart-home" class="project col-sm-4 col-xs-12">
             <div class="image-container">
               <a href="#">
-                <img src="./resources/img/photos/project1.png" />
+                <div class="img">
+
+                </div>
+                <!-- <img src="./resources/img/photos/project2.png" /> -->
               </a>
             </div>
-            <h3>The Right Tights</h3>
-            <p>by Riley Mae</p>
-            <p>These tights are 50 denier, beautifully constructed, hand-dyed, and guaranteed to last (no more ladders!). Made with high quality, completely toxic-free materials. Custom colors available to all backers.</p>
+            <h3>Peppermint Smart Home</h3>
+            <p>by Brian McDonald</p>
+            <p>Instantly upgrade your home with technology that keeps your family and home safe. We've made Peppermint easy to use. Just talk to your phone and Peppermint will help you every step of the way.</p>
           </div>
-          <div id="tights" class="project col-xs-12 col-sm-4">
+          <div id="streetlife" class="project col-sm-4 col-xs-12">
             <div class="image-container">
               <a href="#">
-                <img src="./resources/img/photos/project1.png" />
+                <div class="img">
+
+                </div>
+                <!-- <img src="./resources/img/photos/project3.png" /> -->
               </a>
             </div>
-            <h3>The Right Tights</h3>
-            <p>by Riley Mae</p>
-            <p>These tights are 50 denier, beautifully constructed, hand-dyed, and guaranteed to last (no more ladders!). Made with high quality, completely toxic-free materials. Custom colors available to all backers.</p>
+            <h3>American Streetlife</h3>
+            <p>by Patrick Wallace</p>
+            <p>I've been traveling around the United States for the past two years. I've slept on hundreds of couches, more than a few benches, and captured my experiences in this 120 page photo album.</p>
           </div>
         </div>
       </div>
-
+      <div id="footer" class="container-fluid">
+        <strong>Having trouble thinking of an idea?</strong>
+        <p>Inventors' block strikes at the worst times. But that's all changed with Jumpstart's Good Idea Generator Lite (GIGL.)</p>
+        <button type="button" class="btn btn-primary btn-lg">Learn more</button>
+      </div>
       <!-- begin scripts -->
       <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
       <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
