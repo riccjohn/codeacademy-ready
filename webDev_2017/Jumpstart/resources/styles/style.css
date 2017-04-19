@@ -22,6 +22,11 @@ nav {
   color: #399bd1;
 }
 
+.carousel {
+  positon: relative;
+  top: 3.8rem;
+}
+
 .jumbotron {
   height: 44rem;
   background-size: cover;
@@ -35,10 +40,23 @@ nav {
   justify-content: center;
   align-items: center;
   text-shadow: 0 2px 4px black;
+  padding-top: 10rem;
 }
 
 .jumbotron-bike {
   background-image: url("../img/photos/jumbotron-bike.jpg");
+}
+
+.jumbotron-duffel {
+  background-image: url("../img/photos/jumbotron-duffel.jpg");
+}
+
+.jumbotron-beer {
+  background-image: url("../img/photos/jumbotron-beer.jpg");
+}
+
+.jumbotron-flowers {
+  background-image: url("../img/photos/jumbotron-flowers.jpg");
 }
 
 .jumbotron h1 {
@@ -52,6 +70,13 @@ nav {
   max-width: 51rem;
   margin: auto;
   display: block;
+}
+
+.relative-wrapper {
+  position: relative;
+  top: -16rem;
+  width: 100%;
+  text-align: center;
 }
 
 button {
